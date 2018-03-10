@@ -15,24 +15,23 @@
 | Campo          | Informação        |
 |---|---|
 | Identificador: | UC01              |
-| Nome:          | Registrar chamado |
-| Atores:        | Membro do Help Desk |
-| Sumário:       | Registra um novo chamado no sistema |
+| Nome:          | Realiza Cadastro |
+| Atores:        | Cliente |
+| Sumário:       | Realiza um cadastro de cliente. |
 
 | Fluxo Principal |
 |---|
-| 1) O membro do help desk seleciona a opção **Registro de novo chamado** e informa o CPF do cliente. |
-| 2) O sistema recupera as informações do cliente pelo CPF.                   |
-| 3) O sistema apresenta as informações do cliente e o formulário para o registro do chamado. |
-| 4) O membro do help desk informa o tipo de chamado e preenche o campo descrição com o relato do cliente. |
-| 5) O sistema registra o chamado e informa que a operação foi bem-sucedida. |
+| 1) O cliente entra na aba cadastro e fornece as informações pessoais. |
+| 2) O sistema salva informações do cliente.                   |
+| 3) O sistema apresenta que os dados foram guardados e seu cadastro foi realizado com sucesso. |
+| 4) O cliente retorna a pagina inical do site. |
 
-| Fluxo Alternativo (2a): O sistema não encontra as informações do cliente pelo CPF. |
+| Fluxo Alternativo (2a): O sistema nâo conseguiu realizar o cadastro. |
 |---|
-| 1) O sistema informa que não conseguiu recuperar as informações pelo CPF e apresenta a opção de cadastrar o cliente. |
-| 2) O membro do help desk preenche o formulário de cadastro do cliente. |
-| 3) O sistema registra os dados do cliente. |
-| 4) Volta ao passo (3) do fluxo principal. |
+| 1) O sistema informa está faltando alguma informação para o realizamento do cadastro. |
+| 2) O sistema faz o usuario preencher novamente o formulario. |
+| 3) O cliente preenche o formulario. |
+| 4) Volta ao passo (2) do fluxo principal. |
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
