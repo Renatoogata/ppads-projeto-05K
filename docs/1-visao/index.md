@@ -1,63 +1,95 @@
-# Documento de Visão do Projeto "NOME DO PROJETO"
+# Documento de Visão do Projeto "Doctors Help"
 
-Este documento apresenta uma solução de software para o projeto *"NOME DO PROJETO"*, solicitado pelo cliente *"NOME DO CLIENTE"*, 
+Este documento apresenta uma solução de software para o projeto *"Doctors Help"*, solicitado pelo cliente *"Tomaz"*, 
 apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
 esperadas do sistema.
 
 ## Objetivos
 
-* Objetivo 1
-* Objetivo 2
-* Objetivo 3
-* etc.
+* Facilitar a Vida de pacientes a procurarem por um medivo
+* Ajudar os medicos ao divulgar seus consultórios
+* Em caso de emergencia o cliente conseguirá ajuda medica no lugar mais proximo possivel
 
 ## Problema
 
-* Descrição do problema: ___
-* Quem é afetado pelo problema: ____
-* Impacto no negócio: ___
-* Benefícios de uma boa solução: ___
+* Descrição do problema: Muitas pessoas que possuem planos de saude ou nao, deixam de ir ao médico para fazer checkup ou tratar de algum problema, por nâo falta de tempo e por dar prioridade a outras coisas que nâo envolvem fazer uns exames para ver se a saude está boa. E também para quem precisa de ajuda méica de uma forma rápida e eficiente.
+* Quem é afetado pelo problema: Todas as pessoas que deixam de ir em um medico resolver um problema simples, ou até de se prevenir que esses pequenos problemas apareçam e se transformam em um problema maior
+* Impacto no negócio: Irá afetar diramente os consultórios médicos que terâo um outro meio de visibilidade e os pacientes que terâo uma forma muito mais rápida de achar ajuda.
+* Benefícios de uma boa solução: Uma solução que estamos a desenvolver, é de desenvolver um software que irá disponibilizar todos os consultorios disponiveis de acordo com o plano de saude da pessoa, para que facilite a vida da pessoa que está precisando de alguma ajuda médica.
 
 ## Definições, abreviações e outros termos do domínio do problema
 
-* Definição 1
-* Definição 2
-* Definição 3
-* etc.
+* Ajuda Médica
+* Facilidade em marcar consultas
 
 ## Integração com outros sistemas
 
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
+* Google maps (ideia em planejamento)
  
 ## Interessados
 
-* Tipo de interessado 1
-* Tipo de interessado 2
-* Tipo de interessado 3
-* etc.
+* Senhor(a) de idade
+*Pai/mae de familia
 
 ## Usuários
 
-* Tipo de usuário 1
-* Tipo de usuário 2
-* Tipo de usuário 3
-* etc.
+* Qualquer pessoa que precisa de ajuda médica
 
 ## Funcionalidades do produto
 
-* Funcionalidade 1
-* Funcionalidade 2
-* etc.
+* Realizar Cadastro do Cliente
+* Realizar Cadastro do Médico
+* Função de busca médica na área definida pelo usuario
 
 ## Restrições do projeto
 
-* Restrição 1
-* Restrição 2
-* Restrição 3
-* etc.
+* Projeto Será Desenvolvido em Linguagem Html, PHP, CSS
+# Documento de Visão do Projeto "Doctors Help"
+
+Este documento apresenta uma solução de software para o projeto *"Doctors Help"*, solicitado pelo cliente *"Tomaz"*, 
+apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
+esperadas do sistema.
+
+## Objetivos
+
+* Facilitar a Vida de pacientes a procurarem por um medivo
+* Ajudar os medicos ao divulgar seus consultórios
+* Em caso de emergencia o cliente conseguirá ajuda medica no lugar mais proximo possivel
+
+## Problema
+
+* Descrição do problema: Muitas pessoas que possuem planos de saude ou nao, deixam de ir ao médico para fazer checkup ou tratar de algum problema, por nâo falta de tempo e por dar prioridade a outras coisas que nâo envolvem fazer uns exames para ver se a saude está boa. E também para quem precisa de ajuda méica de uma forma rápida e eficiente.
+* Quem é afetado pelo problema: Todas as pessoas que deixam de ir em um medico resolver um problema simples, ou até de se prevenir que esses pequenos problemas apareçam e se transformam em um problema maior
+* Impacto no negócio: Irá afetar diramente os consultórios médicos que terâo um outro meio de visibilidade e os pacientes que terâo uma forma muito mais rápida de achar ajuda.
+* Benefícios de uma boa solução: Uma solução que estamos a desenvolver, é de desenvolver um software que irá disponibilizar todos os consultorios disponiveis de acordo com o plano de saude da pessoa, para que facilite a vida da pessoa que está precisando de alguma ajuda médica.
+
+## Definições, abreviações e outros termos do domínio do problema
+
+* Ajuda Médica
+* Facilidade em marcar consultas
+
+## Integração com outros sistemas
+
+* Google maps (ideia em planejamento)
+ 
+## Interessados
+
+* Senhor(a) de idade
+*Pai/mae de familia
+
+## Usuários
+
+* Qualquer pessoa que precisa de ajuda médica
+
+## Funcionalidades do produto
+
+* Realizar Cadastro do Cliente
+* Realizar Cadastro do Médico
+* Função de busca médica na área definida pelo usuario
+
+## Restrições do projeto
+
+* Projeto Será Desenvolvido em Linguagem Html, PHP, CSS
 
 ## Protótipos de tela
 
