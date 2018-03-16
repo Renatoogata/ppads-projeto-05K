@@ -40,7 +40,7 @@
 | Identificador: | UC02              |
 | Nome:          | Busca Médico |
 | Atores:        | Cliente |
-| Sumário:       | Faz uma busca por médicos em sua regi. |
+| Sumário:       | Faz uma busca por médicos em sua região. |
 
 | Fluxo Principal |
 |---|
@@ -51,6 +51,27 @@
 |---|
 | 1) O sistema nâo retorna nenhuma resposta ao pedido. |
 | 2) Volta ao passo (1) do fluxo principal. |
+
+| Fluxo Alternativo (2b): O sistema achou uma lista de médicos. |
+|---|
+| 1) O cliente dá uma opção de marcar consulta. |
+| 2) O sistema registra a consulta e retorna os dados para o cliente. |
+| 3) O cliente confirma e a consulta é marcada. |
+
+
+### 2.3. Caso de uso **Cancela Cadastro**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Cancela Conta |
+| Atores:        | Cliente |
+| Sumário:       | O cliente cancela sua conta no site. |
+
+| Fluxo Principal |
+|---|
+| 1) O cliente o cliente na sua conta seleciona a opção de deletar cadastro. |
+| 2) O sistema deleta todas as informações daquele cliente.                   |
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
