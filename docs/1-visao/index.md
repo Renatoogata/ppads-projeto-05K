@@ -95,14 +95,14 @@ esperadas do sistema.
 
 ### Protótipos para funcionalidade 1
 
-![](proto1.png)
+![](criiarconta.png)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Exemplos gerados pelo assistente do **www.fluidui.com**.
 
 ### Protótipos para funcionalidade 2
 
-![](proto2.png)
+![](buscamedico.png)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Exemplos gerados pelo assistente do **www.fluidui.com**.
 
 ### Protótipos para funcionalidade N
