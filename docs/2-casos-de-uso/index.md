@@ -5,7 +5,7 @@
 **Instruções do professor**: Insira abaixo o diagrama com os casos de uso do seu sistema. A imagem abaixo é somente um exemplo.
 
 ![caso de uso](caso1.png)
-![caso de uso](caso de uso2.png)
+![caso de uso](caso de uso 2.png)
 
 ## 2. Especificação dos casos de uso
 
