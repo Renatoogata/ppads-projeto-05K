@@ -6,7 +6,7 @@
 
 ![caso de uso](caso1.png)
 
-![caso de uso](caso2.png)
+![caso de uso](caso2.jpg)
 
 ## 2. Especificação dos casos de uso
 
