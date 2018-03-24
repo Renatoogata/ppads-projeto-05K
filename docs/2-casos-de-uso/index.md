@@ -75,6 +75,36 @@
 | 1) O cliente o cliente na sua conta seleciona a opção de deletar cadastro. |
 | 2) O sistema deleta todas as informações daquele cliente.                   |
 
-**Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
+
+### 2.4. Caso de uso **Cadastro do Médico**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Cadastro do Médico |
+| Atores:        | Administrador |
+| Sumário:       | O Administrador realiza o cadastro do medico. |
+
+| Fluxo Principal |
+|---|
+| 1) O adm seleciona opção de fazer cadastro do médico. |
+| 2) O sistema retorna um formulario a ser preenchido.                   |
+| 3) O adm preenche o formulario com os dados do medico. |
+| 4) O sistema manda os dados para o banco de dados e exibe uma mensagem de cadastro realizado com sucesso.                   |
+
+
+### 2.5. Caso de uso **Checa Consulta**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Checa Consulta |
+| Atores:        | Médico, paciente |
+| Sumário:       | O medico e o paciente checa as consultas marcadas. |
+
+| Fluxo Principal |
+|---|
+| 1) O medico ou paciente seleciona a opção checa consulta. |
+| 2) O sistema retorna um com as consultas marcadas.                   |
 
 
