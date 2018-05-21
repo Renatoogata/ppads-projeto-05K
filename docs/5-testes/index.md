@@ -71,3 +71,15 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
 | 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
+
+
+* Sair do Sistema com qualquer tipo de usuário.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Sair**| O Sistema irá fechar a sessão criada pelo usuário.|
+
+
