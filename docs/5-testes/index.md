@@ -49,7 +49,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Marcar Consulta**| Sistema retorna pagina com CEP, Plano e irá pedir o tipo de médico desejado.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Marcar Consulta** ao clicar nessa aba.| Sistema retorna pagina com CEP, Plano e irá pedir o tipo de médico desejado.|
 | 2 | Preencher o campo **tipo de Médico** e clicar **Buscar**. | O sistema irá localizar todos os médicos com base no cep onde mora e a especialização. |
 | 3 | Selecionar o nome do médico e clicar **Marcar**. | O sistema retornará outra pagina pedidno Horario e Data. |
 | 4 | Preencher os dados corretamente e clicar **Marcar** novamente. | O sistema irá registra sua consulta no banco de dados. |
@@ -61,7 +61,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas** ao clicar nessa aba.| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
 
 * Ver consultas marcas com perfil **Médico**.
 
@@ -70,7 +70,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
+| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas** ao clicar nessa aba.| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
 
 
 * Sair do Sistema com qualquer tipo de usuário.
@@ -80,6 +80,6 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Sair**| O Sistema irá fechar a sessão criada pelo usuário.|
+| 1 | Ja logado no sistema com qualquer **perfil** ele irá ter acesso a aba **Sair** ao clicar nessa aba.| O Sistema irá fechar a sessão criada pelo usuário.|
 
 
