@@ -61,7 +61,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcara para aquele perfil de paciente.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
 
 * Ver consultas marcas com perfil **Médico**.
 
@@ -70,4 +70,4 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcara para aquele perfil de paciente.|
+| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
