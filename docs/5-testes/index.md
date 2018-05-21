@@ -41,3 +41,15 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | --- | --- | --- |
 | 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar a aba logar  | Abrir uma pagina com dados a serem preenchido.|
 | 2 | Preencher todos os **usuario** e **senha** e selecionar o **perfil** do usuario, clicar enviar. | O sistema irá localizar seu registro e reindirecionar de acordo com perfil selecionado. |
+
+* Marcar consulta com perfil de usuario **Paciente**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Marcar Consulta**| Sistema retorna pagina com CEP, Plano e irá pedir o tipo de médico desejado.|
+| 2 | Preencher o campo **tipo de Médico** e clicar **Buscar**. | O sistema irá localizar todos os médicos com base no cep onde mora e a especialização. |
+| 3 | Selecionar o nome do médico e clicar **Marcar**. | O sistema retornará outra pagina pedidno Horario e Data. |
+| 4 | Preencher os dados corretamente e clicar **Marcar** novamente. | O sistema irá registra sua consulta no banco de dados. |
