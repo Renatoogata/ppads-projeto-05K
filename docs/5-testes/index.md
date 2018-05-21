@@ -53,3 +53,21 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | 2 | Preencher o campo **tipo de Médico** e clicar **Buscar**. | O sistema irá localizar todos os médicos com base no cep onde mora e a especialização. |
 | 3 | Selecionar o nome do médico e clicar **Marcar**. | O sistema retornará outra pagina pedidno Horario e Data. |
 | 4 | Preencher os dados corretamente e clicar **Marcar** novamente. | O sistema irá registra sua consulta no banco de dados. |
+
+* Ver consultas marcas com perfil **Paciente**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcara para aquele perfil de paciente.|
+
+* Ver consultas marcas com perfil **Médico**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas**| O Sistema irá retornar uma pagina com os dados de consultas marcara para aquele perfil de paciente.|
