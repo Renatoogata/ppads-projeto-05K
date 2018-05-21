@@ -60,19 +60,19 @@
 | 3) O cliente confirma e a consulta é marcada. |
 
 
-### 2.3. Caso de uso **Cancela Cadastro**
+### 2.3. Caso de uso **Sair**
 
 | Campo          | Informação        |
 |---|---|
 | Identificador: | UC02              |
-| Nome:          | Cancela Conta |
-| Atores:        | Cliente |
-| Sumário:       | O cliente cancela sua conta no site. |
+| Nome:          | Sair do Sistema|
+| Atores:        | Medicos, Pacientes, ADM |
+| Sumário:       | O cliente sai do sistema. |
 
 | Fluxo Principal |
 |---|
-| 1) O cliente o cliente na sua conta seleciona a opção de deletar cadastro. |
-| 2) O sistema deleta todas as informações daquele cliente.                   |
+| 1) O cliente o cliente na sua conta seleciona a opção Sair. |
+| 2) O sitema fecha a sessão do cliente.                   |
 
 
 ### 2.4. Caso de uso **Cadastro do Médico**
@@ -81,14 +81,14 @@
 |---|---|
 | Identificador: | UC02              |
 | Nome:          | Cadastro do Médico |
-| Atores:        | Administrador |
-| Sumário:       | O Administrador realiza o cadastro do medico. |
+| Atores:        | Medico |
+| Sumário:       | O Médico realiza o cadastro do medico. |
 
 | Fluxo Principal |
 |---|
-| 1) O adm seleciona opção de fazer cadastro do médico. |
+| 1) O usuario seleciona a opção de cadastro de médico. |
 | 2) O sistema retorna um formulario a ser preenchido.                   |
-| 3) O adm preenche o formulario com os dados do medico. |
+| 3) O usuario preenche o formulario com os dados de medico. |
 | 4) O sistema manda os dados para o banco de dados e exibe uma mensagem de cadastro realizado com sucesso.                   |
 
 
