@@ -15,6 +15,6 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd Apresentação da tela de login do sistema |
+| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar aba de criar conta(Paciente) | Abrir um formulario a ser preenchido com informações do paciente.|
 | 2 | Preencher os campos **login** e **password** com os dados de um usuário com perfil de **Funcionário**. | Apresentação do painel do Funcionário |
 | 3 | Clicar no link **Listar todas as tarefas**. | Apresentação das 5 tarefas cadastradas para o funcionário. |
