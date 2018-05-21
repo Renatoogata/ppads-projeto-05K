@@ -82,4 +82,12 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | --- | --- | --- |
 | 1 | Ja logado no sistema com qualquer **perfil** ele irá ter acesso a aba **Sair** ao clicar nessa aba.| O Sistema irá fechar a sessão criada pelo usuário.|
 
+* Ver todos os tipos de usuários cadastrados com o perfil de usuario **Administrador**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com qualquer **perfil** ele irá ter acesso a aba **Ver lista de cadastro** ao clicar nessa aba.| O Sistema irá retornar com uma lista de todos os usuarios cadastrados.|
 
