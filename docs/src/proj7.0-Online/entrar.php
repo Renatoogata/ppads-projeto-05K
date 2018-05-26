@@ -48,7 +48,7 @@
                     </div><br/>
                     
                     <div>
-                        <label>Plano de Saude</label><br/>
+                        <label>Tipo de Perfil</label><br/>
                         <select name="tipo" size="3">
                             <option value="1">Paciente</option>
                             <option value="2">Médico</option>
