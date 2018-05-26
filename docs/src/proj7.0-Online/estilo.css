@@ -1,0 +1,125 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+nav {   
+    width: 95%;
+    background: #202c45;
+    padding: 0 50px;
+}
+
+nav h1 { 
+    margin: 0;
+    padding: 15px 20px;
+    float: left;
+}
+
+nav h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: .5s;
+}
+
+nav ul li a {
+    color:  #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: red;
+}
+
+#conteudo {
+    width: 1400px;
+    min-height: 700px;
+    border: #CCC solid 1px;
+    margin: 20px auto 0px auto; 
+    
+}
+
+.menu {
+    width: 300px;
+    height: 700px;
+    border: #999 solid 1px;
+    margin-bottom: 5px;
+    float: left;
+    
+    list-style-type: none;
+}
+
+
+.texto {
+    width: 1060px;
+    height: 700px;
+    float: right;
+}
+
+#criarConta{
+    width: 900px;
+    min-height: 500px;
+    margin: 20px auto 0px auto;
+}
+
+
+
+
+
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #202c45;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+}
+
