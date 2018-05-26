@@ -37,8 +37,8 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar a aba logar  | Abrir uma pagina com dados a serem preenchido.|
-| 2 | Preencher todos os **usuario** e **senha** e selecionar o **perfil** do usuario, clicar enviar. | O sistema irá localizar seu registro e reindirecionar de acordo com perfil selecionado. |
+| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar a aba logar  | Irá abrir um formulário para preencher os **campos:** Usuario(string); Senha(String); Tipo de Perfil(int).|
+| 2 | Preencher os campos Usuario, senha, tipo de perfil e apertar entrar. | Irá direcionar para uma página aparecendo logado com sucesso e depois de 5 segundos irá reidirecionar para o menu de usuário. |
 
 * Marcar consulta com perfil de usuario **Paciente**.
 
@@ -47,28 +47,40 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Marcar Consulta** ao clicar nessa aba.| Sistema retorna pagina com CEP, Plano e irá pedir o tipo de médico desejado.|
-| 2 | Preencher o campo **tipo de Médico** e clicar **Buscar**. | O sistema irá localizar todos os médicos com base no cep onde mora e a especialização. |
-| 3 | Selecionar o nome do médico e clicar **Marcar**. | O sistema retornará outra pagina pedidno Horario e Data. |
-| 4 | Preencher os dados corretamente e clicar **Marcar** novamente. | O sistema irá registra sua consulta no banco de dados. |
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Marcar Consulta** ao clicar nessa aba.| Sistema retorna pagina com os campos "CEP", "Plano" e irá pedir para preencher o campo "Tipo de Médico".|
+| 2 | Preencher o campo **tipo de Médico** e clicar **Buscar**. | O sistema irá localizar todos os médicos com base no campo "cep" e a especialização. |
+| 3 | Selecionar o nome do médico(checkbox) e clicar **Marcar**. | Irá aparecer um formulario com os campos preenchidos("Plano de Sáude(Strin)", "Nome do Médico(String)", Tipo do Médico(String), Endereco(String) e o usuário irá preencher os campos "Hoário(TIME)" e "Data(DATE)". |
+| 4 | Preencher os campos "Horário" e "data" e clicar **Marcar** novamente. | Irá direcionar para uma página com a seguinte mensagem "CONSULTA MARCADA COM SUCESSO!!". |
 
-* Ver consultas marcas com perfil **Paciente**.
-
-
-**Procedimento de teste:**
-
-| Passo | Procedimento | Resultado esperado |
-| --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá ter acesso a aba **Ver Consultas** ao clicar nessa aba.| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
-
-* Ver consultas marcas com perfil **Médico**.
+* Ver consulta do dia com perfil **Paciente**.
 
 
 **Procedimento de teste:**
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Médico** ele irá ter acesso a aba **Ver Consultas** ao clicar nessa aba.| O Sistema irá retornar uma pagina com os dados de consultas marcada para aquele perfil de paciente.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Ver Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a consulta do dia em que está acessando.|
+
+
+* Histórico de consultas com perfil **Paciente**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Histórico de Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a todas as consultas que esse usuário ja marcou.|
+
+
+* Ver consulta do dia com perfil **Médico**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Médico** ele irá clicar na aba **Ver Consultas do dia** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do paciente(String); plano paciente(String); Horário(Time); Data(Time) referentes a todas as consultas que o médico tem no dia.|
+
 
 
 * Sair do Sistema com qualquer tipo de usuário.
