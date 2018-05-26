@@ -74,7 +74,7 @@ $result = mysqli_query($db, $sql);
 ?>
                     <label>Nome Paciente: </label><?php echo $nome; ?><br/>
                     <label>Plano Paciente: </label><?php echo $planoPaciente; ?><br/>
-                    <label>Data: </label><?php echo $horario; ?><br/>
+                    <label>Horario: </label><?php echo $horario; ?><br/>
                     <label>Data: </label><?php echo $data; ?><br/><br/>
 <?php
     }
