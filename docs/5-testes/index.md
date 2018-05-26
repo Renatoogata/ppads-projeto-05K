@@ -15,7 +15,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar aba de criar conta(Paciente) | Página irá abrir um formulário para preencher os seguintes **campos:** String: Nome, String: Endereço, Int CEP, String: plano, String: usuário, String: Senha.|
+| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar aba de criar conta(Paciente) | Página irá abrir um formulário para preencher os seguintes **campos:** Nome(String); Endereço(String); CEP(INT); Plano(String); Usuario(String), Senha(String).|
 | 2 | Preencher todos os **campos**, os dados(nome, endereço, cep, plano, usario e senha) do usuário com perfil de **Paciente** e apertar o botão enviar. | Irá direcionar para uma página de cadastro concluido com sucesso e depois de 5 segundos voltará para página principal. |
 
 
@@ -26,9 +26,8 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar aba de criar conta(Médico) | Abrir um formulario a ser preenchido com informações do médico.|
-| 2 | Preencher todos os **campos** os dados do usuário com perfil de **Médico**. | Formulado todo preenchido pronto a ser enviado. |
-| 3 | Clicar no botão **enviar**. | O formulario será enviado a base de dados e a conta vai ser criada redirecionando o cliente para home. |
+| 1 | Executar o navegador Chrome e acesse a URL http://doctorshelp.rf.gd acessar aba de criar conta(Médico) | Página irá abrir um formulário para preencher os seguintes **campos:** Nome(String); Endereço do Consultório(String); CEP(INT); Plano de saúde que oferece serviço(String); Especialização(String); CRM(String); Usuario(String), Senha(String).|
+| 2 | Preencher todos os **campos**, os dados(Nome, endereço do consultorio, cep, plano de saúde que oferece serviço, especialização, CRM, usuario, senha) do usuário com perfil de **Médico** e apertar o botão enviar. | Irá direcionar para uma página de cadastro concluido com sucesso e depois de 5 segundos voltará para página principal. |
 
 
 * Logar no Sistema
