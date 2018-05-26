@@ -59,7 +59,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Ver Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a consulta do dia em que está acessando.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Ver Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **campos:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a consulta do dia em que está acessando.|
 
 
 * Histórico de consultas com perfil **Paciente**.
@@ -69,7 +69,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Histórico de Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a todas as consultas que esse usuário ja marcou.|
+| 1 | Ja logado no sistema com perfil **Paciente** ele irá clicar na aba **Histórico de Consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **campos:** Nome do médico(String); Especialização(String); Horário(Time); Endereço(String); Data(Time) referentes a todas as consultas que esse usuário ja marcou.|
 
 
 * Ver consulta do dia com perfil **Médico**.
@@ -79,8 +79,16 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com perfil **Médico** ele irá clicar na aba **Ver Consultas do dia** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **dados:** Nome do paciente(String); plano paciente(String); Horário(Time); Data(Time) referentes a todas as consultas que o médico tem no dia.|
+| 1 | Ja logado no sistema com perfil **Médico** ele irá clicar na aba **Ver Consultas do dia** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **campos:** Nome do paciente(String); plano paciente(String); Horário(Time); Data(Time) referentes a todas as consultas que o médico tem no dia.|
 
+* Histórico de consultas com perfil **Médico**.
+
+
+**Procedimento de teste:**
+
+| Passo | Procedimento | Resultado esperado |
+| --- | --- | --- |
+| 1 | Ja logado no sistema com perfil **Médico** ele irá clicar na aba **Ver histórico de consultas** do menu a esquerda.| Irá direcionar para uma página contendo uma lista de formulários com os seguintes **campos:** Nome Paciente(String); plano(String); Horário(Time); Data(Time) referentes a todas as consultas que esse usuário ja marcou.|
 
 
 * Sair do Sistema com qualquer tipo de usuário.
@@ -90,7 +98,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com qualquer **perfil** ele irá ter acesso a aba **Sair** ao clicar nessa aba.| O Sistema irá fechar a sessão criada pelo usuário.|
+| 1 | Ja logado no sistema com qualquer tipo de **perfil** ele irá clicar na aba **Sair**.| O Sistema irá fechar a sessão criada pelo usuário reindirecionando para Home.|
 
 * Ver todos os tipos de usuários cadastrados com o perfil de usuario **Administrador**.
 
@@ -99,5 +107,5 @@ Em cada procedimento de teste, siga o modelo abaixo:
 
 | Passo | Procedimento | Resultado esperado |
 | --- | --- | --- |
-| 1 | Ja logado no sistema com qualquer **perfil** ele irá ter acesso a aba **Ver lista de cadastro** ao clicar nessa aba.| O Sistema irá retornar com uma lista de todos os usuarios cadastrados.|
+| 1 | Ja logado no sistema com qualquer **perfil** ele irá clicar na aba **Ver Lista de Cadastros**.| O sistema irá retornar 2 formulários. O primeiro com título: "Paciente" com os **campos:** Nome(String); Plano(String); e o segundo formulário com os **campos:** Nome(String); Especialização(String). |
 
